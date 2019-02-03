@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EC77056A917983E8880E378 /* Pods_JercyProjectMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0FBA1D8ABB7B0E8644B502 /* Pods_JercyProjectMaster.framework */; };
+		EFE380512206DD4000CB2DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE380502206DD4000CB2DDF /* AppDelegate.swift */; };
+		EFE380532206DD4000CB2DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE380522206DD4000CB2DDF /* ViewController.swift */; };
+		EFE380552206DD4100CB2DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE380542206DD4100CB2DDF /* Assets.xcassets */; };
+		EFE380582206DD4100CB2DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE380562206DD4100CB2DDF /* Main.storyboard */; };
+		EFE380622206DDA100CB2DDF /* NSOpenPanel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE380612206DDA100CB2DDF /* NSOpenPanel+Extensions.swift */; };
+		EFE380672206E3CD00CB2DDF /* CocoapodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE380662206E3CD00CB2DDF /* CocoapodsViewController.swift */; };
+		EFE380692206E3DE00CB2DDF /* SwiftLintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE380682206E3DE00CB2DDF /* SwiftLintViewController.swift */; };
+		EFE3806C2206E5A900CB2DDF /* ReplacePresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3806B2206E5A900CB2DDF /* ReplacePresentationAnimator.swift */; };
+		EFE3806E2206EC8F00CB2DDF /* Process+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3806D2206EC8F00CB2DDF /* Process+Extensions.swift */; };
+		EFE380702206ECB500CB2DDF /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3806F2206ECB500CB2DDF /* String+extensions.swift */; };
+		EFE380722206F06000CB2DDF /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE380712206F06000CB2DDF /* FileManager+Extensions.swift */; };
+		EFE380742206F70B00CB2DDF /* NSAlert+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE380732206F70B00CB2DDF /* NSAlert+Extension.swift */; };
+		EFE3807622074A8000CB2DDF /* SwiftlintModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3807522074A8000CB2DDF /* SwiftlintModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4747C9EA41E3933E9C4CF502 /* Pods-JercyProjectMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JercyProjectMaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-JercyProjectMaster/Pods-JercyProjectMaster.release.xcconfig"; sourceTree = "<group>"; };
+		C31A3F1E31D143EA6310F494 /* Pods-JercyProjectMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JercyProjectMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JercyProjectMaster/Pods-JercyProjectMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		DA0FBA1D8ABB7B0E8644B502 /* Pods_JercyProjectMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JercyProjectMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE3804D2206DD4000CB2DDF /* JercyProjectMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JercyProjectMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE380502206DD4000CB2DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFE380522206DD4000CB2DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFE380542206DD4100CB2DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE380572206DD4100CB2DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFE380592206DD4100CB2DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE3805A2206DD4100CB2DDF /* JercyProjectMaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JercyProjectMaster.entitlements; sourceTree = "<group>"; };
+		EFE380612206DDA100CB2DDF /* NSOpenPanel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSOpenPanel+Extensions.swift"; sourceTree = "<group>"; };
+		EFE380662206E3CD00CB2DDF /* CocoapodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoapodsViewController.swift; sourceTree = "<group>"; };
+		EFE380682206E3DE00CB2DDF /* SwiftLintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLintViewController.swift; sourceTree = "<group>"; };
+		EFE3806B2206E5A900CB2DDF /* ReplacePresentationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplacePresentationAnimator.swift; sourceTree = "<group>"; };
+		EFE3806D2206EC8F00CB2DDF /* Process+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Process+Extensions.swift"; sourceTree = "<group>"; };
+		EFE3806F2206ECB500CB2DDF /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
+		EFE380712206F06000CB2DDF /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
+		EFE380732206F70B00CB2DDF /* NSAlert+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAlert+Extension.swift"; sourceTree = "<group>"; };
+		EFE3807522074A8000CB2DDF /* SwiftlintModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftlintModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE3804A2206DD4000CB2DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC77056A917983E8880E378 /* Pods_JercyProjectMaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6331A98E26CD908F4A82F14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C31A3F1E31D143EA6310F494 /* Pods-JercyProjectMaster.debug.xcconfig */,
+				4747C9EA41E3933E9C4CF502 /* Pods-JercyProjectMaster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFE380442206DD4000CB2DDF = {
+			isa = PBXGroup;
+			children = (
+				EFE3804F2206DD4000CB2DDF /* JercyProjectMaster */,
+				EFE3804E2206DD4000CB2DDF /* Products */,
+				C6331A98E26CD908F4A82F14 /* Pods */,
+				F999B8FE9FA8C6A5FB2E37B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE3804E2206DD4000CB2DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3804D2206DD4000CB2DDF /* JercyProjectMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE3804F2206DD4000CB2DDF /* JercyProjectMaster */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380562206DD4100CB2DDF /* Main.storyboard */,
+				EFE380642206E3A000CB2DDF /* Main */,
+				EFE380652206E3B300CB2DDF /* Setting */,
+				EFE380602206DD6900CB2DDF /* Extensions */,
+				EFE3806A2206E58D00CB2DDF /* Commons */,
+				EFE380632206E38D00CB2DDF /* SupportFiles */,
+			);
+			path = JercyProjectMaster;
+			sourceTree = "<group>";
+		};
+		EFE380602206DD6900CB2DDF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380612206DDA100CB2DDF /* NSOpenPanel+Extensions.swift */,
+				EFE3806D2206EC8F00CB2DDF /* Process+Extensions.swift */,
+				EFE3806F2206ECB500CB2DDF /* String+extensions.swift */,
+				EFE380712206F06000CB2DDF /* FileManager+Extensions.swift */,
+				EFE380732206F70B00CB2DDF /* NSAlert+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EFE380632206E38D00CB2DDF /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380502206DD4000CB2DDF /* AppDelegate.swift */,
+				EFE380542206DD4100CB2DDF /* Assets.xcassets */,
+				EFE380592206DD4100CB2DDF /* Info.plist */,
+				EFE3805A2206DD4100CB2DDF /* JercyProjectMaster.entitlements */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		EFE380642206E3A000CB2DDF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380522206DD4000CB2DDF /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EFE380652206E3B300CB2DDF /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380662206E3CD00CB2DDF /* CocoapodsViewController.swift */,
+				EFE380682206E3DE00CB2DDF /* SwiftLintViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		EFE3806A2206E58D00CB2DDF /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3806B2206E5A900CB2DDF /* ReplacePresentationAnimator.swift */,
+				EFE3807522074A8000CB2DDF /* SwiftlintModel.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		F999B8FE9FA8C6A5FB2E37B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA0FBA1D8ABB7B0E8644B502 /* Pods_JercyProjectMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE3804C2206DD4000CB2DDF /* JercyProjectMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE3805D2206DD4100CB2DDF /* Build configuration list for PBXNativeTarget "JercyProjectMaster" */;
+			buildPhases = (
+				3A4B0A13E5EFEA354D719690 /* [CP] Check Pods Manifest.lock */,
+				EFE380492206DD4000CB2DDF /* Sources */,
+				EFE3804A2206DD4000CB2DDF /* Frameworks */,
+				EFE3804B2206DD4000CB2DDF /* Resources */,
+				5FA63B7DDD0CEF60C988ADC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JercyProjectMaster;
+			productName = JercyProjectMaster;
+			productReference = EFE3804D2206DD4000CB2DDF /* JercyProjectMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE380452206DD4000CB2DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jercy;
+				TargetAttributes = {
+					EFE3804C2206DD4000CB2DDF = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EFE380482206DD4000CB2DDF /* Build configuration list for PBXProject "JercyProjectMaster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE380442206DD4000CB2DDF;
+			productRefGroup = EFE3804E2206DD4000CB2DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE3804C2206DD4000CB2DDF /* JercyProjectMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE3804B2206DD4000CB2DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE380552206DD4100CB2DDF /* Assets.xcassets in Resources */,
+				EFE380582206DD4100CB2DDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A4B0A13E5EFEA354D719690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JercyProjectMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FA63B7DDD0CEF60C988ADC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JercyProjectMaster/Pods-JercyProjectMaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/PathKit/PathKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftShell/SwiftShell.framework",
+				"${BUILT_PRODUCTS_DIR}/xcodeproj/xcodeproj.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PathKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftShell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xcodeproj.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JercyProjectMaster/Pods-JercyProjectMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE380492206DD4000CB2DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE380622206DDA100CB2DDF /* NSOpenPanel+Extensions.swift in Sources */,
+				EFE3806C2206E5A900CB2DDF /* ReplacePresentationAnimator.swift in Sources */,
+				EFE380532206DD4000CB2DDF /* ViewController.swift in Sources */,
+				EFE3807622074A8000CB2DDF /* SwiftlintModel.swift in Sources */,
+				EFE380692206E3DE00CB2DDF /* SwiftLintViewController.swift in Sources */,
+				EFE380702206ECB500CB2DDF /* String+extensions.swift in Sources */,
+				EFE380672206E3CD00CB2DDF /* CocoapodsViewController.swift in Sources */,
+				EFE380512206DD4000CB2DDF /* AppDelegate.swift in Sources */,
+				EFE380742206F70B00CB2DDF /* NSAlert+Extension.swift in Sources */,
+				EFE3806E2206EC8F00CB2DDF /* Process+Extensions.swift in Sources */,
+				EFE380722206F06000CB2DDF /* FileManager+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFE380562206DD4100CB2DDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE380572206DD4100CB2DDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE3805B2206DD4100CB2DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFE3805C2206DD4100CB2DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EFE3805E2206DD4100CB2DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31A3F1E31D143EA6310F494 /* Pods-JercyProjectMaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TA757FA6NR;
+				INFOPLIST_FILE = JercyProjectMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.jercy.JercyProjectMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		EFE3805F2206DD4100CB2DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4747C9EA41E3933E9C4CF502 /* Pods-JercyProjectMaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TA757FA6NR;
+				INFOPLIST_FILE = JercyProjectMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.jercy.JercyProjectMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE380482206DD4000CB2DDF /* Build configuration list for PBXProject "JercyProjectMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3805B2206DD4100CB2DDF /* Debug */,
+				EFE3805C2206DD4100CB2DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE3805D2206DD4100CB2DDF /* Build configuration list for PBXNativeTarget "JercyProjectMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3805E2206DD4100CB2DDF /* Debug */,
+				EFE3805F2206DD4100CB2DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE380452206DD4000CB2DDF /* Project object */;
+}
