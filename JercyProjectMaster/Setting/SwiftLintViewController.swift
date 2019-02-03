@@ -20,6 +20,7 @@ class SwiftLintViewController: NSViewController {
     @IBAction func udateBuildPhaseAction(_ sender: Any) {
         addSwiftlintBuildPashe()
         addSwiftlintAutoCorrectBuildPashe()
+        NSAlert.dialogCancel(text: "Complete add BuildPhas in your project")
     }
     @IBAction func installSwiftlintAction(_ sender: Any) {
         installSwiftlint()
@@ -62,7 +63,7 @@ extension SwiftLintViewController {
         guard let path = projectPath else { return }
         try? makeSwiftlintymlString().write(toFile: "\(path)/.swiftlint.yml", atomically: true, encoding: String.Encoding.utf8)
         
-        NSAlert.dialogCancel(text: "Completed make .swiftlint.yml file")
+        NSAlert.dialogCancel(text: "Complete make .swiftlint.yml file")
     }
     
     private func makeSwiftlintymlString() -> String {
