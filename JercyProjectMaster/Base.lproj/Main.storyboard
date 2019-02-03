@@ -884,8 +884,8 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rZr-fP-yIZ">
-                                <rect key="frame" x="219" y="69" width="141" height="32"/>
-                                <buttonCell key="cell" type="push" title="PodRepo update" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="WEJ-b6-fXG">
+                                <rect key="frame" x="219" y="69" width="144" height="32"/>
+                                <buttonCell key="cell" type="push" title="pod Repo update" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="WEJ-b6-fXG">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -1014,7 +1014,7 @@
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView id="HtR-7J-gwP">
-                                                            <rect key="frame" x="223.5" y="1" width="372" height="15"/>
+                                                            <rect key="frame" x="224" y="1" width="372" height="15"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uPO-8C-cfS">

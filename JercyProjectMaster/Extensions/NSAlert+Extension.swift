@@ -20,7 +20,7 @@ extension NSAlert {
     static func dialogCancel(text: String?) {
         let alert = NSAlert()
         alert.messageText = "Complete"
-        alert.informativeText = text ?? "Failed"
+        alert.informativeText = text ?? "Complete"
         alert.alertStyle = .warning
         alert.addButton(withTitle: "Cancel")
         alert.runModal()
