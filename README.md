@@ -4,8 +4,8 @@
 When using swiftlint and cocoapods, beginners will have difficulty.
 So I created the JercyProjectMaster, which is easier to use with the UI.
 
-### Use it
-#### [Download app](https://github.com/JeaSungLEE/JercyProjectMaster/releases/download/1.1/JercyProjectMaster.app.zip)
+## Use it
+### [Download app](https://github.com/JeaSungLEE/JercyProjectMaster/releases/download/1.1/JercyProjectMaster.app.zip)
 
 Unzip and launch the app.
 When you run the app, you will see a screen where you can select a project location.
@@ -49,10 +49,8 @@ More information about cocoapods can be found [here](https://cocoapods.org).
 If you have any questions, please register as an issue.
 
 
-### License
-### contribute
+## License
+[MIT licensed](https://github.com/JeaSungLEE/JercyProjectMaster/blob/master/LICENSE).
+
+## contribute
 Everyone is welcome to contribute to JercyProjectMaster.
-
-
-
-JercyProjectMaster is maintained and funded by JeasungLEE. 
