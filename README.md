@@ -4,6 +4,9 @@
 When using swiftlint and cocoapods, beginners will have difficulty.
 So I created the JercyProjectMaster, which is easier to use with the UI.
 
+<img width="200" alt="image" src="https://github.com/JeaSungLEE/JercyProjectMaster/blob/master/JercyProjectMaster/Assets.xcassets/AppIcon.appiconset/icon-1.png">
+
+
 ## Use it
 ### [Download app](https://github.com/JeaSungLEE/JercyProjectMaster/releases/download/1.1/JercyProjectMaster.app.zip)
 
