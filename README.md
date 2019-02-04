@@ -8,7 +8,7 @@ So I created the JercyProjectMaster, which is easier to use with the UI.
 
 
 ## Use it
-### [Download app](https://github.com/JeaSungLEE/JercyProjectMaster/releases/download/1.3/JercyProjectMaster.app.zip)
+### [Download app](https://github.com/JeaSungLEE/JercyProjectMaster/releases/download/1.4/JercyProjectMaster.app.zip)
 
 Unzip and launch the app.
 When you run the app, you will see a screen where you can select a project location.
