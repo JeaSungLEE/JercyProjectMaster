@@ -310,7 +310,7 @@
                                     <action selector="podinstallAction:" target="dX2-hK-S36" id="j3P-dn-VtR"/>
                                 </connections>
                             </button>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fiE-h7-IRb">
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fiE-h7-IRb" customClass="EditableTextField" customModule="JercyProjectMaster" customModuleProvider="target">
                                 <rect key="frame" x="20" y="117" width="450" height="500"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="450" id="2YJ-D5-nFo"/>

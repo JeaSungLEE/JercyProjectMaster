@@ -21,6 +21,7 @@
 		EFE380722206F06000CB2DDF /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE380712206F06000CB2DDF /* FileManager+Extensions.swift */; };
 		EFE380742206F70B00CB2DDF /* NSAlert+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE380732206F70B00CB2DDF /* NSAlert+Extension.swift */; };
 		EFE3807622074A8000CB2DDF /* SwiftlintModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3807522074A8000CB2DDF /* SwiftlintModel.swift */; };
+		EFF00E01220803FC00865921 /* EditableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF00E00220803FC00865921 /* EditableTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		EFE380712206F06000CB2DDF /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
 		EFE380732206F70B00CB2DDF /* NSAlert+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAlert+Extension.swift"; sourceTree = "<group>"; };
 		EFE3807522074A8000CB2DDF /* SwiftlintModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftlintModel.swift; sourceTree = "<group>"; };
+		EFF00E00220803FC00865921 /* EditableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				EFE3806B2206E5A900CB2DDF /* ReplacePresentationAnimator.swift */,
 				EFE3807522074A8000CB2DDF /* SwiftlintModel.swift */,
+				EFF00E00220803FC00865921 /* EditableTextField.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				EFE380532206DD4000CB2DDF /* ViewController.swift in Sources */,
 				EFE3807622074A8000CB2DDF /* SwiftlintModel.swift in Sources */,
 				EFE380692206E3DE00CB2DDF /* SwiftLintViewController.swift in Sources */,
+				EFF00E01220803FC00865921 /* EditableTextField.swift in Sources */,
 				EFE380702206ECB500CB2DDF /* String+extensions.swift in Sources */,
 				EFE380672206E3CD00CB2DDF /* CocoapodsViewController.swift in Sources */,
 				EFE380512206DD4000CB2DDF /* AppDelegate.swift in Sources */,
